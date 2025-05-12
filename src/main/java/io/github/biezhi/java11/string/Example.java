@@ -33,7 +33,7 @@ public class Example {
     /**
      * Demonstrate method {@code String.lines()} added with JDK 11.
      */
-    public static void demonstrateStringLines() {
+    public static void StringLines() {
         String originalString = "Hello\nWorld\n123";
 
         String stringWithoutLineSeparators = originalString.replaceAll("\\n", "\\\\n");
@@ -46,7 +46,7 @@ public class Example {
     /**
      * Demonstrate method {@code String.strip()} added with JDK 11.
      */
-    public static void demonstrateStringStrip() {
+    public static void StringStrip() {
         String originalString = "  biezhi.me  23333  ";
 
         writeHeader("String.strip() on '" + originalString + "'");
@@ -56,7 +56,7 @@ public class Example {
     /**
      * Demonstrate method {@code String.stripLeading()} added with JDK 11.
      */
-    public static void demonstrateStringStripLeading() {
+    public static void StringStripLeading() {
         String originalString = "  biezhi.me  23333  ";
 
         writeHeader("String.stripLeading() on '" + originalString + "'");
