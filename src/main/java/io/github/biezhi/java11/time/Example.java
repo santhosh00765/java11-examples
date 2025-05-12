@@ -16,10 +16,10 @@ public class Example {
         System.out.println(day == 1);
 
         // 1 天
-        System.out.println(TimeUnit.DAYS.convert(Duration.ofHours(26)));
+        System.out.println(TimeUnit.DAYS.convert(Duration.ofHours(20)));
 
         // 1 分钟
-        System.out.println(TimeUnit.MINUTES.convert(Duration.ofSeconds(60)));
+        System.out.println(TimeUnit.MINUTES.convert(Duration.ofSeconds(30)));
     }
 
 }
